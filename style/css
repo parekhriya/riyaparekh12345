@@ -1,1 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+}
 
+header {
+    background: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+
+.navigation {
+    background: white;
+    padding: 25px;
+    width: 35%;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: #1e3a5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #28527a;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e8f4ff;
+    border-radius: 5px;
+}
+
+.map {
+    position: relative;
+    width: 60%;
+    height: 500px;
+    background: #dff0d8;
+    border: 3px solid #555;
+    border-radius: 10px;
+}
+
+.map h2 {
+    text-align: center;
+}
+
+.location {
+    position: absolute;
+    padding: 15px;
+    background: white;
+    border: 2px solid #333;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.gate {
+    left: 30px;
+    bottom: 30px;
+}
+
+.library {
+    left: 250px;
+    top: 80px;
+}
+
+.canteen {
+    right: 30px;
+    top: 100px;
+}
+
+.admin {
+    left: 50px;
+    top: 200px;
+}
+
+.lab {
+    right: 80px;
+    top: 280px;
+}
+
+.ground {
+    left: 250px;
+    bottom: 40px;
+}
