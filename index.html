@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Campus Navigation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+    <header>
+        <h1>Campus Navigation System</h1>
+        <p>Find your way around the campus</p>
+    </header>
+
+    <div class="container">
+
+        <div class="navigation">
+            <h2>Find Route</h2>
+
+            <label>Current Location:</label>
+            <select id="start">
+                <option value="Gate">Main Gate</option>
+                <option value="Library">Library</option>
+                <option value="Canteen">Canteen</option>
+                <option value="Admin">Admin Block</option>
+                <option value="Lab">Computer Lab</option>
+                <option value="Ground">Sports Ground</option>
+            </select>
+
+            <label>Destination:</label>
+            <select id="destination">
+                <option value="Gate">Main Gate</option>
+                <option value="Library">Library</option>
+                <option value="Canteen">Canteen</option>
+                <option value="Admin">Admin Block</option>
+                <option value="Lab">Computer Lab</option>
+                <option value="Ground">Sports Ground</option>
+            </select>
+
+            <button onclick="findRoute()">Find Route</button>
+
+            <div id="result"></div>
+        </div>
+
+        <div class="map">
+            <h2>Campus Map</h2>
+
+            <div class="location gate">Main Gate</div>
+            <div class="location library">Library</div>
+            <div class="location canteen">Canteen</div>
+            <div class="location admin">Admin Block</div>
+            <div class="location lab">Computer Lab</div>
+            <div class="location ground">Sports Ground</div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
